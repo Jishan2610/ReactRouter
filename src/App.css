@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +38,40 @@
   to {
     transform: rotate(360deg);
   }
+}
+.primary-nav{
+  background-color: #979cd2;
+  height: 3rem;
+  margin: 0 auto;
+}
+.secondary-nav{
+  background-color: #d7d8e8;
+  height: 3rem;
+  margin: 10px auto;
+}
+nav a{
+  margin: 5px;
+}
+nav a.active{
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #282c34;
+  color: #ffffff;
+}
+.search{
+  margin-left: 5px;
+  margin-top: 5px;
+}
+button{
+  height: 2rem;
+  width: 10rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  background-color:rgb(68, 159, 215);
+  color: aliceblue;
+  font-weight: bold;
+  border-radius: 1rem;
+}
+.Back{
+  background-color:rgb(224, 88, 88);
 }
